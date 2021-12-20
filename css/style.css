@@ -194,6 +194,7 @@ flex-wrap: nowrap;
 .img__dw {
     width: 50rem;
     padding: 3rem;
+    align-items: center;
 }
 .section__redes{
     display: flex;
