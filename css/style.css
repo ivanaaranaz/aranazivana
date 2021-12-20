@@ -53,7 +53,6 @@ a:-webkit-any-link {
 }
 ul {
     list-style: none
-    width: 100%
 }
 .titulo__cel {
     background-color: #72bbaa;
@@ -224,7 +223,7 @@ flex-wrap: nowrap;
     animation-iteration-count: 1;
     animation-timing-function: linear;
     animation-duration: 2s;
-    -o-animation-delay: 1s;
+    animation-delay: 1s;
 
 }
 
@@ -297,9 +296,6 @@ main {
 }
 footer {
     grid-area: footer;
-}
-div.pagdw {
-    disp
 }
 header {
     grid-area: header;
@@ -632,7 +628,6 @@ padding: 1rem;
 }
 }
 
-}
 @media only screen and (max-width : 320px) {
 
     .form__contacto {
@@ -658,11 +653,10 @@ a:-webkit-any-link {
 }
 ul {
     list-style: none
-    width: 100%
 }
 }
 @keyframes multimedia {
-    0% { width: 200px;}
-    0.2s { width: 100px}
-    25% { width: 150;}
+    0% {width: 200px;}
+    25% {width: 150;}
 }
+
