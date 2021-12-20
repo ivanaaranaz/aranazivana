@@ -220,6 +220,12 @@ flex-wrap: nowrap;
     width: 48rem;
     padding: 3rem;
     align-self: center;
+    animation-name: multimedia;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    -o-animation-delay: 1s;
+
 }
 
 div.index {
@@ -654,4 +660,9 @@ ul {
     list-style: none
     width: 100%
 }
+}
+@keyframes multimedia {
+    0% { width: 200px;}
+    0.2s { width: 100px}
+    25% { width: 150;}
 }
