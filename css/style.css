@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: "archivo", sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    overflow-x: hidden;
+}
+.top-header { 
+    background-color: #333333;
+}
+
+.nav__personalizada {
+    background-color: #dddbe2;
+}
+
+a:-webkit-any-link {
+    color:#333333;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer a:-webkit-any-link {
+    color: #dddbe2;
+}
+
+#background1 {
+      background-color: #e15a22;
+  }
+#background2 {
+    background-color: #333333;
+    color:#dddbe2
+}
+#background3 {
+    background-color: #72bbaa;
+    color:#dddbe2
+}
