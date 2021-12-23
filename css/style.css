@@ -45,20 +45,13 @@ footer a:-webkit-any-link {
     color:#dddbe2
 }
 
-h3{
-    background-color: #e15a22;
-    color: white;
-
-}
-
-h4{
-    background-color: #72bbaa;
-    color: white;
-}
 .text-justify {
     text-align: justify;
 }
 #carrusel{ 
-   width: 48rem;
+    width: 48rem;
     margin: 0rem;
+}
+.text-center {
+    text-align: center;
 }
