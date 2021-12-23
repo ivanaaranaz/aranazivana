@@ -33,14 +33,15 @@ footer a:-webkit-any-link {
 }
 
 #background1 {
-      background-color: #e15a22;
-  }
-#background2 {
-    background-color: #333333;
+    background-color: #f48131;
     color:#dddbe2
 }
+#background2 {
+    background-color: #333333;
+    color: #dddbe2
+}
 #background3 {
-    background-color: #72bbaa;
+    background-color: #84c341;
     color:#dddbe2
 }
 
@@ -53,4 +54,11 @@ h3{
 h4{
     background-color: #72bbaa;
     color: white;
+}
+.text-justify {
+    text-align: justify;
+}
+#carrusel{ 
+   width: 48rem;
+    margin: 0rem;
 }

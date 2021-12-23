@@ -19,14 +19,14 @@
     <div>
         <header class="sticky-top">
             <div class="top-header py-4">
-                <div class="conteiner container-fluid py-2" class="top-header">
+                <div class="conteiner container-fluid d-flex py-2" class="top-header">
                     <a href="../index.html">
-                        <img width="50rem" src="./images/logoweb.png" alt="logo de sitio">
+                        <img class="pl-2" width="50rem" src="./images/logoweb.png" alt="logo de sitio">
                         <img width="200rem" src="./images/logoletras.png" alt="bedigitaltrend"> </a>
                 </div>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
+                <div class="container-fluid d-flex">
                     <a class="navbar-brand" href="../index.html"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,16 +55,56 @@
             </nav>
         </header>
         <main class="container-fluid">
-            <div class="row" id="background1">
-                <div class="col-12 col-lg-4 d-flex py-5 justify-content-center">
-                    <video class="img__md" width="400rem" src="./images/Neuromarketingtedx.mp4" controls "></video>
+            <div class="row">
+                <div class="card col-12 col-lg-6 p-5 border-0 justify-content-center">
+                    <div class="card-body m-0">
+                        <div class="p-5" id="background1">
+                        <p class="h3 m-5">
+                            Resultados medibles: Esta es la principal y más evidente ventaja que ofrece el marketing
+                            digital. Gracias a las múltiples herramientas analíticas, permite hacer un seguimiento más
+                            preciso del retorno de inversión (ROI) que el marketing tradicional.
+                            Alcance global: Cuando nos referimos a alcance global queremos decir que, con internet,
+                            podemos
+                            llegar a personas de cualquier parte del mundo.</p>
+                        <p class="h3 m-5">
+                            Inmediatez: Los medios digitales nos permiten ver los resultados de una campaña en tiempo
+                            real,
+                            de modo que podemos ajustar y optimizarla en la medida necesaria.
+                            Fidelización: las redes sociales nos permiten generar lazos más fuertes con nuestros
+                            clientes, y
+                            construir una comunidad online más amplia de la que podríamos en el mundo offline.
+                            Precisión en el target: Mientras que un anuncio de marketing tradicional se imprime a un
+                            gran
+                            público indiferenciado, en el marketing digital podemos dirigir anuncios a un público
+                            determinado, logrando así campañas mucho más eficientes.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class=" col-12 col-lg-4 d-flex py-5 justify-content-center">
-                        <img class=" img__md" width="400rem" src="./images/marketingdigital.jpeg"
-                            alt="marketing digital">
-                </div>
-                <div class="col-12 col-lg-4 d-flex py-5 justify-content-center">
-                    <img class="img__md" width="400rem" src="./images/ads.jpeg" alt="marketing digital">
+                <div id="carouselExampleControls" class="col-12 col-lg-6 py-5 carousel slide" data-bs-ride="carousel">
+                    <div id="carrusel" class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/m1.jpg" class="d-block w-100 m-0" alt="m1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/m2.jpg" class="d-block w-100" alt="m2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/m5.jpg" class="d-block w-100" alt="m5">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/m6.jpg" class="d-block w-100" alt="m6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
             <div class="row" id="background2">
@@ -86,19 +126,19 @@
                         </ul>
                     </form>
                 </div>
-                <div class="col-12 col-lg-7 d-flex justify-content-center align-items-center py-5" id="background2">
+                <div class="col-12 col-lg-7 justify-content-center align-items-center py-5" id="background2">
                     <p class="h3">
                         Si quieres que seamos tu agencia de marketing digital nos encantaría escucharte.
                     </p>
                 </div>
                 <div class="row" id="background3">
-                    <div class="col-12 col-lg-5 justify-content-center align-items-center py-5">
-                        <img class="mapa" width="400rem" src="./images/latinoamerica.png" alt="mapa">
+                    <div class="col-12 col-lg-5 py-5 align-content-center justify-content-center">
+                        <img class="px-2" width="400rem" src="./images/latinoamerica.png" alt="mapa">
                     </div>
-                    <div class="col-12 col-lg-7 py-5">
-                        <h2 class="justify-content-center p-5">MARKETING DIGITAL GLOBAL</h2>
+                    <div class="col-12 col-lg-7 px-5 justify-content-center align-self-center">
+                        <p class="h2 m-5">MARKETING DIGITAL GLOBAL</p>
                         <br>
-                        <p class="h3 justify-content-center p-5">
+                        <p class="h3 text-justify m-5">
                             Una estrategia de marketing global (GMS) incluye países de distintas regiones del mundo
                             y tiene
                             el objetivo de coordinar las iniciativas de marketing de una empresa en los mercados
@@ -117,17 +157,17 @@
         </main>
         <footer class="container-fluid" id="background2">
             <div class="row">
-                <div class="col-12 col-lg-4 py-5 d-flex justify-content-center d-flex align-items-center h4">
+                <div class="col-12 col-lg-4 py-5  justify-content-center d-flex align-items-center h4">
                     Copyright © 2021 - Develop by <a class="footer__linkedin"
                         href=https://www.linkedin.com/in/ivanaaranaz/ target="_blank">Ivana
                         Aranaz</a>
                 </div>
-                <div class="col-12 col-lg-4 py-5 d-flex justify-content-center d-flex align-items-center">
+                <div class="col-12 col-lg-4 py-5 justify-content-center d-flex align-items-center">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.6283538077946!2d-64.19267298485244!3d-31.396809581410672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432986143b7671f%3A0x5cb6f5e9ab3f2529!2zSm9zw6kgTWFyw61hIEJlZG95YSA5ODcsIFg1MDAwIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1639071066360!5m2!1ses-419!2sar"
                         style="border:0" ; loading="lazy"></iframe>
                 </div>
-                <div class="col-12 col-lg-4 py-5 d-flex justify-content-center d-flex align-items-center h4">
+                <div class="col-12 col-lg-4 py-5 justify-content-center d-flex align-items-center h4">
                     <ul class="list-unstyled">
                         <li>Telefono: +54 9351 2219922</li>
                         <li>e-mail: iviaranaz@gmail.com</li>
