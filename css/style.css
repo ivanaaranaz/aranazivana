@@ -31,10 +31,7 @@ a:-webkit-any-link {
 footer a:-webkit-any-link {
     color: #dddbe2;
 }
-#background_index {
-    background-image: url(/images/bgindex.jpg);
-    background-size:cover;
-}
+
 #background1 {
     background-color: rgba(41, 39, 34, 0.623);
     color:#dddbe2;
@@ -126,3 +123,8 @@ footer a:-webkit-any-link {
     100%{ width: 100%;}
 }
  
+
+#background-video {
+    background-size: cover;
+    background-image: url(/images/bgindex.jpg);
+  }
