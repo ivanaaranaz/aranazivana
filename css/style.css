@@ -46,7 +46,7 @@ footer a:-webkit-any-link {
 }
 #background3 {
     background-color: #cddf31;
-    color:#33333;
+    color: #333333;
 }
 
 .text-justify {
@@ -123,6 +123,6 @@ footer a:-webkit-any-link {
     25%{ width: 25%; }
     50%{ width: 50%; }
     75%{ width: 75%;}
-    100%{ width: 100%;
+    100%{ width: 100%;}
 }
  
