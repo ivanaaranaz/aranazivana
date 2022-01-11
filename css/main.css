@@ -70,3 +70,18 @@ body {
 #carrusel {
   width: 48rem;
   margin: 0rem; }
+
+.cardtext1 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(0, 47, 255, 0.4); }
+
+.cardtext2 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(0, 217, 255, 0.4); }
+
+.cardtext3 {
+  text-align: left;
+  font-size: 1.5rem;
+  background-color: rgba(0, 255, 179, 0.4); }

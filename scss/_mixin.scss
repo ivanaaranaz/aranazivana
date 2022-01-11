@@ -1,8 +1,7 @@
 @import "./variables";
 
 @mixin cardtext {
-    background-color: $cardtext1;
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
 }
 .cardtext1 {
