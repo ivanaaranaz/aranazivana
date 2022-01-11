@@ -1,0 +1,21 @@
+@import "./variables";
+
+@mixin cardtext {
+    background-color: $cardtext1;
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.cardtext1 {
+@include cardtext;
+background-color: $cardtext1;
+}
+.cardtext2 {
+    @include cardtext;
+    background-color: $cardtext2;
+    }
+.cardtext3 {
+        @include cardtext;
+        background-color: $cardtext3;
+        }
+
+
