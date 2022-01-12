@@ -54,11 +54,26 @@ body {
   font-size: 1.5rem; }
 
 .titulo_index {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bolder; }
 
 .titulo_index2 {
   font-size: 1.7rem; }
+
+.titulo_cardinfo1 {
+  color: #00d0ff; }
+
+.titulo_cardinfo2 {
+  color: #06afd4; }
+
+.titulo_cardinfo3 {
+  color: #067e99; }
+
+.titulo_cardinfo4 {
+  color: #056f86; }
+
+.titulo_cardinfo5 {
+  color: #03596d; }
 
 #bvideo {
   width: 100vw;
@@ -78,18 +93,18 @@ body {
 .cardtext1 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(0, 47, 255, 0.4); }
+  background-color: rgba(0, 225, 255, 0.4); }
 
 .cardtext2 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(0, 217, 255, 0.4); }
+  background-color: rgba(5, 183, 214, 0.4); }
 
 .cardtext3 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(0, 255, 179, 0.4); }
+  background-color: rgba(2, 172, 172, 0.4); }
 
 .cardinfo1, .cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5, .cardinfo6 {
   text-align: justify;
-  font-size: 1.4rem; }
+  font-size: 1.5rem; }
