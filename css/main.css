@@ -32,8 +32,9 @@ body {
   background-color: #dddbe2; }
 
 #background1 {
-  background-color: rgba(41, 39, 34, 0.623);
-  color: #dddbe2; }
+  background-color: rgba(41, 39, 34, 0.699);
+  color: #dddbe2;
+  text-align: center; }
 
 #background2 {
   background-color: #333333;
@@ -46,15 +47,18 @@ body {
 .text-justify {
   text-align: justify; }
 
-#carrusel {
-  width: 48rem;
-  margin: 0rem; }
-
 .text-center {
   text-align: center; }
 
 .nav-link {
   font-size: 1.5rem; }
+
+.titulo_index {
+  font-size: 2.2rem;
+  font-weight: bolder; }
+
+.titulo_index2 {
+  font-size: 1.7rem; }
 
 #bvideo {
   width: 100vw;
@@ -85,3 +89,7 @@ body {
   text-align: left;
   font-size: 1.5rem;
   background-color: rgba(0, 255, 179, 0.4); }
+
+.cardinfo1, .cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5, .cardinfo6 {
+  text-align: justify;
+  font-size: 1.4rem; }
