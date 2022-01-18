@@ -76,6 +76,9 @@ body {
 .titulo_cardinfo5 {
   color: #03596d; }
 
+footer a {
+  color: white; }
+
 #bvideo {
   width: 100vw;
   height: 100vh;
