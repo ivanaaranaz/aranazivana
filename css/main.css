@@ -106,17 +106,17 @@ a:visited {
 .cardtext1 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(0, 225, 255, 0.4); }
+  background-color: rgba(183, 237, 243, 0.101); }
 
 .cardtext2 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(5, 183, 214, 0.4); }
+  background-color: rgba(5, 183, 214, 0.101); }
 
 .cardtext3 {
   text-align: left;
   font-size: 1.5rem;
-  background-color: rgba(2, 172, 172, 0.4); }
+  background-color: rgba(2, 172, 172, 0.101); }
 
 .cardinfo1, .cardinfo2, .cardinfo3, .cardinfo4, .cardinfo5, .cardinfo6 {
   text-align: justify;
