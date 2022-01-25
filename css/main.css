@@ -42,7 +42,14 @@ body {
   color: #333333; }
 
 #cardindex {
-  height: 30rem; }
+  height: 36rem; }
+
+#link {
+  font-size: 2.5rem;
+  color: white; }
+
+a:visited {
+  color: white; }
 
 * {
   font-family: 'Montserrat', sans-serif; }
@@ -80,9 +87,6 @@ body {
 
 .titulo_cardinfo5 {
   color: #03596d; }
-
-footer a {
-  color: white; }
 
 #bvideo {
   width: 100vw;
