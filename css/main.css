@@ -29,7 +29,7 @@ body {
   background-color: #dddbe2; }
 
 #background1 {
-  background-color: rgba(41, 39, 34, 0.699);
+  background-color: rgba(41, 39, 34, 0.599);
   color: #dddbe2;
   text-align: center; }
 
@@ -40,6 +40,9 @@ body {
 #background3 {
   background-color: #ffffff;
   color: #333333; }
+
+#cardindex {
+  height: 100vh; }
 
 * {
   font-family: 'Montserrat', sans-serif; }
@@ -56,6 +59,8 @@ body {
 
 .titulo_index {
   font-size: 2rem;
+  color: #dddbe2;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bolder; }
 
 .titulo_index2 {

@@ -24,7 +24,7 @@
             <div class="top-header py-4">
                 <div class="conteiner container-fluid d-flex py-2" class="top-header">
                     <a href="../index.html">
-                        <img id="animacion" class="pl-2" width="50rem" src="./images/logoweb.png" alt="logo de sitio">
+                        <img class="pl-2" width="50rem" src="./images/logoweb.png" alt="logo de sitio">
                         <img width="200rem" src="./images/logoletras.png" alt="bedigitaltrend"> </a>
                 </div>
             </div>
@@ -58,113 +58,85 @@
             </nav>
         </header>
         <main class="container-fluid">
-            <div>
-                <video id="bvideo" autoplay playsinline loop muted src="./images/videoindex.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="row" id="background-video">
-                <div class="card-transparent col-12 col-lg-12 border-0">
-                    <div class="row p-4">
-                        <div class="card-body col-12">
-                            <div class="rounded-3 p-2 m-2" id="background1">
-                                <p class="p-4 m-4">
-                                    <span class="titulo_index">En BE DIGITAL TREND, nos proponemos el desafío
-                                        constante de llevar a cada cliente hacia lo más alto. Es por eso que cada una de
-                                        las áreas de la empresa trabaja en conjunto para posicionar cada empresa que
-                                        llega a nuestras manos. Desarrollamos proyectos de forma integral, abarcando
-                                        cada área en conjunto para otorgar organización, seriedad y prestigio.</span>
-                                    <br>
-                                    <br>
-                                    <span class="titulo_index2">Brindamos un servicio que abarca
-                                        las necesidades de marketing que necesita tu empresa
-                                        Manejamos todas las plataformas publicitarias; nuestro principal objetivo es
-                                        maximizar la inversión de nuestros clientes, logrando la mayor rentabilidad al
-                                        menor costo; logrando así maximizar la inversión.</span>
-                                </p>
+            <div class="row">
+                <div></div>
+                    <video id="bvideo" autoplay playsinline loop muted
+                        src="./images/videoindex.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="row" id="background-video">
+                    <div class="card-transparent border-0">
+                        <div class="p-4" id="background1">
+                            <div class="card-body col-12 col-lg-12 d-flex align-items-start" id="cardindex">
+                                <div class="rounded-3 p-5 m-5">
+                                    <p>
+                                        <span class="titulo_index">En BE DIGITAL TREND, nos proponemos el desafío
+                                            constante de llevar a cada cliente hacia lo más alto. Desarrollamos
+                                            proyectos de
+                                            forma integral, abarcando
+                                            cada área en conjunto para otorgar organización, seriedad y
+                                            prestigio.</span>
+                                    </p>
+                                    <p class="rounded-3 p-5 m-5 id=" cardindex">
+                                        <span class="titulo_index">
+                                            COMPROMETIDOS EN BRINDAR EL MEJOR SERVICIO PARA NUESTROS CLIENTES
+                                        </span>
+                                    </p>
+                                    <div class="rounded-3 p-5 m-5">
+                                        <button type="button" class="btn btn-outline-light" id="link">
+                                            <a href="./pages/contacto.html">CONTACTANOS</a>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div>
-                            <div
-                                class="card-transparent col-12 col-lg-12 border-0 d-flex justify-content-center align-items-center">
-                                <form class="p-4" id="background1">
-                                    <ul class="list-unstyled h4 rounded-3">
-                                        <p class="titulo_index" class="p-3">
-                                            Si quieres que seamos tu agencia de marketing digital nos encantaría
-                                            escucharte.
-                                        </p>
-                                        <li>
-                                            <label class="form-label" for="name">Nombre:</label>
-                                            <input class="form-control" type="text" id="name" name="user_name">
-                                        </li>
-                                        <li>
-                                            <label class="form-label" for="mail">Correo electrónico:</label>
-                                            <input class="form-control" type="email" id="mail" name="user_mail">
-                                        </li>
-                                        <li>
-                                            <label class="form-label" for="msg">Mensaje:</label>
-                                            <textarea class="form-control" id="msg" name="user_message"></textarea>
-                                        </li>
-                                        <br>
-                                        <li>
-                                            <button type="reset">Limpiar</button>
-                                            <button>
-                                            <a href="mailto:iviaranaz@gmail.com"></a>Enviar</button>
-                                        </li>
-                                    </ul>
-                                </form>
+                    <div class="row" id="background3">
+                        <div id="carouselExampleControls"
+                            class="col-12 col-lg-5 py-5 carousel slide d-flex justify-content-center align-items-center"
+                            data-bs-ride="carousel">
+                            <div id="carrusel" class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./images/m1.jpg" class="d-block w-100 m-0" alt="m1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/m2.jpg" class="d-block w-100" alt="m2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/m5.jpg" class="d-block w-100" alt="m5">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./images/m6.jpg" class="d-block w-100" alt="m6">
+                                </div>
                             </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class="col-12 col-lg-7 px-5 justify-content-center align-self-center">
+                            <h1 class="h2 m-5">MARKETING DIGITAL GLOBAL</h1>
+                            <p class="h3 text-justify m-5">
+                                Una estrategia de marketing global (GMS) incluye países de distintas regiones del mundo
+                                y tiene
+                                el objetivo de coordinar las iniciativas de marketing de una empresa en los mercados
+                                correspondientes. Las estrategias de marketing "regionales" coordinan las iniciativas de
+                                marketing para una región determinada.
+                                Una estrategia de marketing digital es la planificación de ciertos pasos para llegar a
+                                objetivos
+                                definidos por medios online, que conlleva aspectos como la creación y difusión de
+                                contenidos a
+                                través de los sitios web y las redes sociales, la gestión de correos electrónicos y
+                                blogs, entre
+                                otros.
+                            </p>
                         </div>
                     </div>
-                </div>
-
-            </div>
-            <div class="row" id="background3">
-                <div id="carouselExampleControls"
-                    class="col-12 col-lg-5 py-5 carousel slide d-flex justify-content-center align-items-center"
-                    data-bs-ride="carousel">
-                    <div id="carrusel" class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./images/m1.jpg" class="d-block w-100 m-0" alt="m1">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/m2.jpg" class="d-block w-100" alt="m2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/m5.jpg" class="d-block w-100" alt="m5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./images/m6.jpg" class="d-block w-100" alt="m6">
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <div class="col-12 col-lg-7 px-5 justify-content-center align-self-center">
-                    <h1 class="h2 m-5">MARKETING DIGITAL GLOBAL</h1>
-                    <p class="h3 text-justify m-5">
-                        Una estrategia de marketing global (GMS) incluye países de distintas regiones del mundo
-                        y tiene
-                        el objetivo de coordinar las iniciativas de marketing de una empresa en los mercados
-                        correspondientes. Las estrategias de marketing "regionales" coordinan las iniciativas de
-                        marketing para una región determinada.
-                        Una estrategia de marketing digital es la planificación de ciertos pasos para llegar a
-                        objetivos
-                        definidos por medios online, que conlleva aspectos como la creación y difusión de
-                        contenidos a
-                        través de los sitios web y las redes sociales, la gestión de correos electrónicos y
-                        blogs, entre
-                        otros.
-                    </p>
-                </div>
-            </div>
         </main>
         <footer class="container-fluid" id="background2">
             <div class="row">
