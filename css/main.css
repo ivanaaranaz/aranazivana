@@ -30,8 +30,7 @@ body {
 
 #background1 {
   background-color: rgba(41, 39, 34, 0.599);
-  color: #dddbe2;
-  text-align: center; }
+  color: #dddbe2; }
 
 #background2 {
   background-color: #333333;
@@ -42,7 +41,8 @@ body {
   color: #333333; }
 
 #cardindex {
-  height: 36rem; }
+  text-align: center;
+  height: 22rem; }
 
 #link {
   font-size: 2.5rem;
@@ -89,8 +89,8 @@ a:any-link {
   color: #03596d; }
 
 #bvideo {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
   position: fixed;
   left: 0;
