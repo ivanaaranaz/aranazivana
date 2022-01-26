@@ -42,7 +42,11 @@ body {
 
 #cardindex {
   text-align: center;
-  height: 22rem; }
+  height: 35rem; }
+
+#cardindex2 {
+  text-align: center;
+  height: 12rem; }
 
 #link {
   font-size: 2.5rem;
