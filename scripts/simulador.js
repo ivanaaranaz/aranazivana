@@ -101,7 +101,7 @@ function renderizarCarrito() {
         miNodo.textContent = `${numeroUnidadesItem} x ${miItem[0].nombre} - ${miItem[0].precio}${divisa}`;
        
         const miBoton = document.createElement('button');
-        miBoton.classList.add('btn', 'btn-danger', 'mx-5');
+        miBoton.classList.add('btn', 'btn-danger','mx-5');
         miBoton.textContent = 'X';
         miBoton.style.marginLeft = '1rem';
         miBoton.dataset.item = item;
@@ -110,52 +110,46 @@ function renderizarCarrito() {
         miNodo.appendChild(miBoton);
         DOMcarrito.appendChild(miNodo);
     });
-    // Renderizamos el precio total en el HTML
+ 
     DOMtotal.textContent = calcularTotal();
 }
 
-/**
- * Evento para borrar un elemento del carrito
- */
+
 function borrarItemCarrito(evento) {
-    // Obtenemos el producto ID que hay en el boton pulsado
+  
     const id = evento.target.dataset.item;
-    // Borramos todos los productos
+ 
     carrito = carrito.filter((carritoId) => {
         return carritoId !== id;
     });
-    // volvemos a renderizar
+ 
     renderizarCarrito();
 }
 
-/**
- * Calcula el precio total teniendo en cuenta los productos repetidos
- */
+
 function calcularTotal() {
-    // Recorremos el array del carrito 
+
     return carrito.reduce((total, item) => {
-        // De cada elemento obtenemos su precio
+     
         const miItem = baseDeDatos.filter((itemBaseDatos) => {
             return itemBaseDatos.id === parseInt(item);
         });
-        // Los sumamos al total
+     
         return total + miItem[0].precio;
     }, 0).toFixed(2);
 }
 
-/**
- * Varia el carrito y vuelve a dibujarlo
- */
+
 function vaciarCarrito() {
-    // Limpiamos los productos guardados
+   
     carrito = [];
-    // Renderizamos los cambios
+  
     renderizarCarrito();
 }
 
-// Eventos
+
 DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 
-// Inicio
+
 renderizarProductos();
 renderizarCarrito();
